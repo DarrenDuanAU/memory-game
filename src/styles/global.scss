@@ -1,0 +1,16 @@
+@import './themes.scss';
+
+body {
+  margin: 0;
+  font-size: 1.5em;
+  background-color: $primary-dark;
+  color: $white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+

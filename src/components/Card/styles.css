@@ -3,18 +3,19 @@
 .card {
   position: relative;
   cursor: pointer;
+  background-color: blue;
 }
 
 .card img {
   display: block;
   width: 100%;
   border: 2px solid #fff;
-  border-radius: 0.3em;
+  border-radius: 0.8em;
 }
 
 .card .front {
   position: absolute;
-  transform: rotate(90deg);
+  transform: rotateY(90deg);
   transition: all ease-in 0.2s;
 }
 
@@ -23,7 +24,7 @@
   transition-delay: 0.2s;
 }
 
-.flipped front {
+.flipped .front {
   transform: rotateY(0deg);
   transition-delay: 0.2s;
 }

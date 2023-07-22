@@ -32,11 +32,12 @@
 }
 
 .cardBoard {
-  display: gird;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   grid-gap: 0.8em;
+  background-color: red;
 }
 
 .result {
-  margin-top: lem;
+  margin-top: 1em;
 }

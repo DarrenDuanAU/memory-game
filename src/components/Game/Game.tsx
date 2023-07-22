@@ -8,7 +8,10 @@ export default function Game() {
       <h1>{cardText.title}</h1>
       <button>{cardText.btnText}</button>
       <div className="cardBoard">
-        < Card/>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <p className="result">{cardText.winner}</p>
     </div>
